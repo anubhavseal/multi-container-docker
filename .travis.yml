@@ -17,4 +17,4 @@ after_success:
   - docker push anubhav2381/multi-container-client
   - docker push anubhav2381/multi-container-server
   - docker push anubhav2381/multi-container-worker
-  - dcoker push anubhav2381/multi-container-nginx
+  - docker push anubhav2381/multi-container-nginx
