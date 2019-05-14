@@ -5,7 +5,7 @@ services:
 before_install:
   - docker build -f ./client/Dockerfile.dev -t anubhav2381/tests ./client
 
-scripts:
+script:
   - docker run anubhav2381/tests npm run test --no-watch
 
 after_success:
